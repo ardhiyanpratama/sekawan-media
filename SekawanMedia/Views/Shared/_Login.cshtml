@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sekawan Media</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/plugins/global/plugins.bundle.css" />
+    <link rel="stylesheet" href="~/css/style.bundle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SekawanMedia.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="d-flex flex-center flex-column-auto p-10">
+        <div class="d-flex align-items-center fw-bold fs-6">
+            <a href="https://keenthemes.com" class="text-muted text-hover-primary px-2">About</a>
+            <a href="mailto:support@keenthemes.com" class="text-muted text-hover-primary px-2">Contact</a>
+            <a href="https://1.envato.market/EA4JP" class="text-muted text-hover-primary px-2">Contact Us</a>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/plugins/global/plugins.bundle.js"></script>
+    <script src="~/js/scripts.bundle.js" asp-append-version="true"></script>
+    <script src="~/js/custom/authentication/sign-in/general.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
