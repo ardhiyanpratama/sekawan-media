@@ -13,6 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SekawanMedia.Service", "Sek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SekawanMedia.Models", "SekawanMedia.Models\SekawanMedia.Models.csproj", "{2DD4B687-2CD2-4538-9C37-DF573FFBF98A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{543E4393-6AA2-4DC1-99E0-B55C11463937}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Sekawan Media\Activity Diagram Sekawan Media.pdf = D:\Sekawan Media\Activity Diagram Sekawan Media.pdf
+		D:\Sekawan Media\Activity Diagram Sekawan Media.vsdx = D:\Sekawan Media\Activity Diagram Sekawan Media.vsdx
+		D:\Sekawan Media\PDM Vehicle Management System - Sekawan Lama Test.png = D:\Sekawan Media\PDM Vehicle Management System - Sekawan Lama Test.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
